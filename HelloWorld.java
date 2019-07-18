@@ -1,20 +1,5 @@
-package example;
-
-public class HelloWorld {
-
-  public void coveredByUnitTest() {
-    System.out.println("coveredByUnitTest1");
-  }
-
-  public void coveredByIntegrationTest() {
-    System.out.println("coveredByIntegrationTest1");
-    System.out.println("coveredByIntegrationTest2");
-    System.out.println("coveredByIntegrationTest3");
-  }
-  
-   public void notCovered() {
-
-    System.out.println("notCovered");
-  }
-
+class Simple{  
+    public static void main(String args[]){  
+     System.out.println("Hello Java");  
+    }  
 }
